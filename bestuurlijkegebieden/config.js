@@ -1,5 +1,5 @@
 var respecConfig = {
-  subtitle: "DiS-Geo scopedocument",
+  subtitle: "Scopedocument ZoN - Bestuurlijke Gebieden",
   format: "markdown",
   specStatus: "GN-WV",
   specType: "HR", 
