@@ -1,18 +1,20 @@
 Inleiding
 =========
 
-We werken de bestuurlijke gebieden op basis van dit scopedocument uit in een informatiemodel en een registratievoorziening. Hieruit kunnen vragen over onder meer processen,
-bronhouderschap, brondocumenten en andere juridische aspecten naar voren komen die in een later stadium worden uitgewerkt.
+Dis-Geo wordt ontwikkeld in een scaled agile framework (SAFe) aanpak. Dat wil zeggen meerdere AGILE werkende teams produren samen het geheel. Standaarden worden dus ook op AGILE wijze in sprints gemaakt. We werken de bestuurlijke gebieden op basis van het document [‘DiS-Geo
+EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’ en dit scopedocument uit in een informatiemodel en een registratievoorziening. Hieruit kunnen vragen over onder meer processen,
+bronhouderschap, brondocumenten en andere juridische aspecten naar voren komen
+die in een later stadium worden uitgewerkt.
 
 Geonovum levert de volgende producten op:
-* Model van  begrippen, confrom de NL-SBB standaard, dat wil zeggen relevante begrippen en hun definities. In eerste instantie gepubliceerd op begrippen.geostandaarden.nl. Bij formele in productiename van bestuurlijke gebieden verhuist dit model van begrippen naar definities.geostandaarden.nl.
-* Conceptueel informatiemodel. Een implementatie onafhankelijk informatiemodel waarin in UML de samenhang van de begrippen gemodelleerd is. Inclusief tekstuele toelichting gepubliceerd in ReSpec formaat op docs.geostandaarden.nl
-* Logisch gegevensmodel. Een UML model afgeleid van het conceptuele UML model waarin implementatiekeuzes zijn gemaakt. Dit wordt gebruikt voor afleiden van technische specificaties
+* Model van  begrippen, dat wil zeggen relevante begrippen en hun definities. In eerste instantie gepubliceerd op begrippen.geostandaarden.nl. Bij formele in productiename van bestuurlijke gebieden verhuist dit model van begrippen naar definities.geostandaarden.nl.
+* Conceptueel informatiemodel. Een implementatie onafhankelijk informatiemodel waarin in UML de samenhang van de begrippen gemodelleerd is. Inclusief tekstuele toelichting gepubliceeerd in ReSpec formaat op docs.geostandaarden.nl
+* Logisch informatiemodel. Een UML model afgeleid van het conceptuele UML model waarin implementatiekeuzes zijn gemaakt. Dit wordt gebruikt voor afleiden van technische specificaties
 * Technische specificaties: Een API beschrijving in OAS 3 formaat in lijn met de REST API Design Rules welke de interface van de API definieerd. Daarnaast een JSON schema bestand waarmee de uitgewisselde informatie in JSON formaat gevalideerd kan worden. Waar nodig uitgebreid met aanvullende tekstuele documentatie.
 * Scope document: Dit document zelf.
 * Geleerde lessen: Aan de hand van een evaluatie moment worden geleerde lessen van het project gedocumenteerd en waar van toepassing worden change requests aan bestaande registraties geformuleerd.
 
-Het model van begrippen, conceptueel informatiemodel en scopedocument zullen door de governance van ZoN Datafundamewnt worden vastgesteld. Het scopedocument aan het begin van het project en de modellen aan het einde van het project.
+Het model van begrippen, conceptueel informatiemodel en scopedocument zullen door de governance van DiS Geo worden vastgesteld. Het scopedocument aan het begin van het project en de modellen aan het einde van het project.
 
 Dese eerste versie van bestuurlijke gebieden gaat over:
 * Rijk (land)
@@ -47,7 +49,7 @@ Partijen die gegevens van bestuurlijke gebieden **gebruiken** zijn onder meer:
 -   Bronhouder BAG voor het voldoen aan de eis dat het grondgebied van de
     gemeente volledig bedekt is met woonplaatsen.
 
--   Centraal Bureau voor de Statistiek (CBS)
+-   Centraal Bureau Statistiek (CBS)
 
 ### Beheerders 
 Partijen die de **regelgeving, standaarden, of centrale voorzieningen** voor
@@ -57,7 +59,7 @@ gegevens over bestuurlijke gebieden beheren:
 
 -   Geonovum
 
--   Ministerie van Volkshuisvesting en Ruimtelijke Ordening (VRO)
+-   Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
 
 Bestaande registraties
 ======================
@@ -204,15 +206,15 @@ Wet op de veiligheidsregio’s
 	
 Omgevingswet
 ------------
-De omgevingswet noemt de bestuurlijke grenzen niet expliciet, maar bij de uitvoering van de wet zijn ze van groot belang. De landelijke voorziening (voor omgevingsplannen) werkt niet wanneer de bestuurlijke grenzen API niet beschikbaar is.
+De omgevingswet noemt de bestuurlijke grenzen niet expliciet, maar bij de uitvoering van de wet zijn ze van groot belang. De landelijke voorziening(voor omgevingsplannen) werkt niet wanneer de bestuurlijke grenzen API niet beschikbaar is.
 
 
 Beschrijving van bestuurlijke gebieden
 ======================================
 
-Vanuit het programma Zicht op Nederland - DataFundament is
-de behoefte aangegeven om diverse bestuurlijke gebieden beter bruikbaar te maken
-binnen de context van het Datafundament. 
+Vanuit de doorontwikkeling van de geobasisregistraties in samenhang (DiS-Geo) is
+de behoefte ontstaan om diverse bestuurlijke gebieden beter bruikbaar te maken
+binnen de context van een samenhangend stelsel van geo-basisgegevens.
 Voorbeelden van bestuurlijke gebieden zijn gebieden die behoren bij de openbare lichamen Rijk,
 gemeenten, provincies, waterschappen en samenwerkingsverbanden zoals
 veiligheidsregio’s. Het gaat hier dus *niet* om de openbare lichamen zelf maar alléén om het gebied waar binnen het openbare lichaam haar bestuurlijke verantwoordelijkheid uitoefent. 
@@ -227,7 +229,7 @@ Basisregistratie Kadaster (BRK) en Basisregistratie Grootschalige Topografie
 (BGT). Elke basisregistratie doet dat op zijn eigen manier: met eigen
 identificaties en eigenschappen.
 
-In het document [‘DiS-Geo EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’ is in een eerder stadium 
+In het document [‘DiS-Geo EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’ is
 gedefinieerd welke wensen en eisen er zijn ten aanzien van inhoud van
 bestuurlijke gebieden in de geobasisregistraties. Hierin worden onder meer
 unieke aanduiding, naamgeving en relaties tot andere bestuurlijke gebieden
@@ -387,9 +389,7 @@ beheerder van deze standaard.
 
 Informatie modellering
 ----------------------
-Het informatiemodel voor Bestuurlijke Gebieden wordt ontwikkeld conform NEN 3610:2022 basismodel voor informatiemodellen [NEN3610] .
-
-Het informatiemodel voor Bestuurlijke Gebieden wordt ontwikkeld conform het Metamodel Informatiemodellering (MIM) [MIM12].
+NEN3610, MIM 1.1.1 **verder uitwerken**
 
 
 Relevante architectuur
@@ -406,10 +406,13 @@ behoeve van de informatiemodellering voor bestuurlijke gebieden.
 Aanpak
 ------
 
-Er is voor gekozen om bestuurlijke gebieden in een apart informatiemodel te modelleren. 
+Voor nu wordt er voor gekozen om bestuurlijke gebieden in een apart klein
+informatiemodel te modelleren. Op later moment kan worden bekeken of dit
+informatiemodel wordt geïntegreerd in bijvoorbeeld BRK of BGT.
+In eerste instantie worden de resultaten in de Bestuurlijke gebieden API van het Kadaster verwerkt. Geonovum werkt in sprints aan de standaard waarbij we ons sprintritme afstemmen op dat van het Kadaster bestuurlijke gebieden API team. We maken meerdere iteraties van de standaard, die minimaal door de bestuurlijke gebieden API wordt geïmplementeerd. Bij voorkeur worden deze in de keten getest door zowel bronhouders als afnemers.
 
 
-Aanspreekpunt voor architectuurvragen die naar boven komen in het standaardisatie project is de architect van het Kadaster. Dit aangezien Kadaster verantwoordelijk is voor het realiseren van de standaard in een landelijke voorziening.
+Aanspreek punt voor architectuur vragen die naar boven komen in het standaardisatie project is de architect van het Kadaster. Dit aangezien Kadaster beoogd is als verantwoordelijk voor het realiseren van de standaard in een landelijke voorziening.
 
 
 
@@ -421,7 +424,7 @@ bestuurlijke gebieden’ dienen andere informatiemodellen de bestuurlijke gebied
 te schrappen, bijvoorbeeld Gemeente uit BRK en/of Waterschap uit IMGeo.
 
 
-**is dit te rijmen met uitgangspunt over wettelijke kaders? voorstel is om deze alinea te schrapen of dit punt buiten scope van het huidige proect te zetten**
+**is dit te rijmen met uitgangspunt over wettelijke kaders? voorstel is om deze allinea te schrapen of dit punt buiten scope van het huidige proect te zetten**
 
 Inhoud
 ------
@@ -467,7 +470,8 @@ Levensloop
 ----------
 
 Elke bestuurlijk gebied krijgt een status, zijnde de fase van de levenscyclus.
-De volgende statussen worden gehanteerd voor een bestuurlijk gebied:
+In afwijking van het document ‘DiS-Geo EMSO’ worden de volgende statussen
+gehanteerd voor een bestuurlijk gebied:
 
 -   ontwerp
 
@@ -477,7 +481,8 @@ De volgende statussen worden gehanteerd voor een bestuurlijk gebied:
 
 -   ten onrechte opgevoerd
 
-NB: Aangewezen en ten onrechte opgevoerd bestaan niet in EMSO en we implementeren er twee niet uit EMSO. De afwijking van EMSO is noodzakelijk om dichter bij de wet en regelgeving van bestaande registraties te blijven. Aangezien we de bestaande wet en regelgeving als uitgangspunt nemen voor deze versie van bestuurlijke gebieden.
+Aangewezen en ten onrechte opgevoerd bestaan niet in EMSO en we implementeren er twee niet uit EMSO.
+De afwijking van EMSO is noodzakelijk om dichter bij de wet en rgelgeving van bestaande registraties te blijven. Aangezien we de bestaande wet en regelgeving als uitgangspunt nemen voor deze versie van bestuurlijke gebieden.
 
 Actualiteit
 -----------
@@ -488,7 +493,7 @@ aangeleverd.
 
 Kwaliteit
 -----------
-De NORA is leidend voor het bepalen van kwaliteitsaspecten. De NORA kent de volgende kwaliteitsdimensies:
+De NORA is leidend voor het bepalen van kwaliteitsaspecten. De nora de volgende kwaliteitsdimensies:
 
 | Kwaliteitsdimensie  | Definitie              |
 | ------------------- | ---------------------- |
